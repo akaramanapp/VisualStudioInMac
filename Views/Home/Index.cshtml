@@ -1,0 +1,19 @@
+﻿
+<html>
+	<head>
+		<title>Customer List</title>
+	</head>
+	<body>
+		<h2>Customer List</h2>
+		<ul>
+			@foreach (var item in Model) {
+			<li>
+				@item.Name / @item.Address
+			</li>
+			}
+		</ul>			
+	</body>
+</html>
+
+
+		
